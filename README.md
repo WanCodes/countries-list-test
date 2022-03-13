@@ -14,12 +14,12 @@ You will also see any lint errors in the console.
 
 ### `Steps taken to complete the test`
 
-1 - create project - `npx create-react-app my-app --template typescript`
-2 - install apollo client - `npm install apollo-boost @apollo/react-hooks graphql`
-3 - install airbnb linting - `npm install eslint --save-dev`
-4 - install material ui - `npm install @mui/material @emotion/react @emotion/styled`
-5 - setup apollo client uri and provider - `https://countries.trevorblades.com/`
-6 - use material ui Pagination and Card components
+##### 1 - create project - `npx create-react-app my-app --template typescript`
+##### 2 - install apollo client - `npm install apollo-boost @apollo/react-hooks graphql`
+##### 3 - install airbnb linting - `npm install eslint --save-dev`
+##### 4 - install material ui - `npm install @mui/material @emotion/react @emotion/styled`
+##### 5 - setup apollo client uri and provider - `https://countries.trevorblades.com/`
+##### 6 - use material ui Pagination and Card components
 
 I have added @Todos comments in the code given more time.  
 
