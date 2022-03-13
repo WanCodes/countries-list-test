@@ -2,6 +2,8 @@
 
 In the project directory, you can run:
 
+### `npm i`
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -10,16 +12,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `Steps taken to complete the test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-### `npm run build`
+1 - create project - `npx create-react-app my-app --template typescript`
+2 - install apollo client - `npm install apollo-boost @apollo/react-hooks graphql`
+3 - install airbnb linting - `npm install eslint --save-dev`
+4 - install material ui - `npm install @mui/material @emotion/react @emotion/styled`
+5 - setup apollo client uri and provider - `https://countries.trevorblades.com/`
+6 - use material ui Pagination and Card components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I have added @Todos comments in the code given more time.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If given more I would make the app mobile responsive, add unit tests, better styling, use custom hooks and cleaner structure. 
